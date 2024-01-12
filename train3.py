@@ -9,7 +9,7 @@ from joblib import dump, load
 
 
 # Data Loading
-data = pd.read_csv('simulation_data_NMPC-RTI.csv')
+data = pd.read_csv('simulation_data/simsimulation_data_NMPC-RTI.csv')
 X = data[['X1', 'X2', 'X3', 'U1', 'U2']]  # Features
 y = data[['X_ref1','X_ref2','X_ref3','U_ref1','U_ref2']]  # Targets
 
